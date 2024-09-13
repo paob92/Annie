@@ -1,0 +1,627 @@
+fileFormatVersion: 2
+guid: 216996a07a7967d48bd142457417abc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1983966032711223219
+    second: AnnieGameOver_0
+  - first:
+      213: -8097887049229063152
+    second: AnnieGameOver_1
+  - first:
+      213: 3521364820129283344
+    second: AnnieGameOver_2
+  - first:
+      213: -4177689932166221733
+    second: AnnieGameOver_3
+  - first:
+      213: -6700111433244910935
+    second: AnnieGameOver_4
+  - first:
+      213: 3465089522763410314
+    second: AnnieGameOver_5
+  - first:
+      213: 9000475781587310319
+    second: AnnieGameOver_6
+  - first:
+      213: 5139097181871563001
+    second: AnnieGameOver_7
+  - first:
+      213: 5590619275875349893
+    second: AnnieGameOver_8
+  - first:
+      213: -4926980881344425008
+    second: AnnieGameOver_9
+  - first:
+      213: 5597062314920961667
+    second: AnnieGameOver_10
+  - first:
+      213: -8727280445990896131
+    second: AnnieGameOver_11
+  - first:
+      213: 3204299170883399682
+    second: AnnieGameOver_12
+  - first:
+      213: 7612512793613847718
+    second: AnnieGameOver_13
+  - first:
+      213: -7776893173360511937
+    second: AnnieGameOver_14
+  - first:
+      213: 5084296587373706051
+    second: AnnieGameOver_15
+  - first:
+      213: 3580103387816303435
+    second: AnnieGameOver_16
+  - first:
+      213: -2362363484918977699
+    second: AnnieGameOver_17
+  - first:
+      213: -2350207284347480066
+    second: AnnieGameOver_18
+  - first:
+      213: 7222093983120359683
+    second: AnnieGameOver_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnnieGameOver_0
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 4110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b781326896788b10800000000000000
+      internalID: 1983966032711223219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 3211
+        height: 3857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c277712a68e9f80800000000000000
+      internalID: -8097887049229063152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 505
+        width: 201
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01dfc5c95a66ed030800000000000000
+      internalID: 3521364820129283344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 829
+        width: 98
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50b18b142dd506c0800000000000000
+      internalID: -4177689932166221733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_4
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 994
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa57e1762c6403a0800000000000000
+      internalID: -6700111433244910935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_5
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 917
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bad37ef88761030800000000000000
+      internalID: 3465089522763410314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_6
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 898
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6940b690d18ec70800000000000000
+      internalID: 9000475781587310319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 866
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f06aa7a8adb15740800000000000000
+      internalID: 5139097181871563001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_8
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 909
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585700d6c9ed59d40800000000000000
+      internalID: 5590619275875349893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_9
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 468
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d313502ef8df9bb0800000000000000
+      internalID: -4926980881344425008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_10
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 463
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386e69a5582ccad40800000000000000
+      internalID: 5597062314920961667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_11
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 457
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdff796ca872e680800000000000000
+      internalID: -8727280445990896131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_12
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 452
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200759a6e15f77c20800000000000000
+      internalID: 3204299170883399682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_13
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 367
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac487f8d0415a960800000000000000
+      internalID: 7612512793613847718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_14
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 362
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34bfa1dcdce21490800000000000000
+      internalID: -7776893173360511937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_15
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 335
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bf327fecc0f8640800000000000000
+      internalID: 5084296587373706051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_16
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 308
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b96f120151fa130800000000000000
+      internalID: 3580103387816303435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 177
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bec034de2373fd0800000000000000
+      internalID: -2362363484918977699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_18
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 155
+        width: 8
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7dee34de2626fd0800000000000000
+      internalID: -2350207284347480066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnnieGameOver_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 99
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301006e96380a3460800000000000000
+      internalID: 7222093983120359683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AnnieGameOver_0: 1983966032711223219
+      AnnieGameOver_1: -8097887049229063152
+      AnnieGameOver_10: 5597062314920961667
+      AnnieGameOver_11: -8727280445990896131
+      AnnieGameOver_12: 3204299170883399682
+      AnnieGameOver_13: 7612512793613847718
+      AnnieGameOver_14: -7776893173360511937
+      AnnieGameOver_15: 5084296587373706051
+      AnnieGameOver_16: 3580103387816303435
+      AnnieGameOver_17: -2362363484918977699
+      AnnieGameOver_18: -2350207284347480066
+      AnnieGameOver_19: 7222093983120359683
+      AnnieGameOver_2: 3521364820129283344
+      AnnieGameOver_3: -4177689932166221733
+      AnnieGameOver_4: -6700111433244910935
+      AnnieGameOver_5: 3465089522763410314
+      AnnieGameOver_6: 9000475781587310319
+      AnnieGameOver_7: 5139097181871563001
+      AnnieGameOver_8: 5590619275875349893
+      AnnieGameOver_9: -4926980881344425008
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
