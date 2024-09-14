@@ -1,0 +1,1090 @@
+fileFormatVersion: 2
+guid: b514da37554ec314297e77b349fbcd95
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2953405237775003591
+    second: proyectil_0
+  - first:
+      213: -4117416798320852913
+    second: proyectil_1
+  - first:
+      213: -8295734662313388273
+    second: proyectil_2
+  - first:
+      213: 6580176721674915589
+    second: proyectil_3
+  - first:
+      213: 7956509663139988535
+    second: proyectil_4
+  - first:
+      213: 7185791039395816777
+    second: proyectil_5
+  - first:
+      213: -4938494931462936865
+    second: proyectil_6
+  - first:
+      213: -2807091450099627726
+    second: proyectil_7
+  - first:
+      213: -6145098726919895010
+    second: proyectil_8
+  - first:
+      213: 6600104223806274742
+    second: proyectil_9
+  - first:
+      213: 4706264062996318532
+    second: proyectil_10
+  - first:
+      213: 8872057054130726522
+    second: proyectil_11
+  - first:
+      213: -7151710268007031738
+    second: proyectil_12
+  - first:
+      213: -2092627905438122725
+    second: proyectil_13
+  - first:
+      213: -2676560681824658369
+    second: proyectil_14
+  - first:
+      213: 4790909316779252632
+    second: proyectil_15
+  - first:
+      213: 1661982442142141077
+    second: proyectil_16
+  - first:
+      213: -7465458810617229095
+    second: proyectil_17
+  - first:
+      213: 7422676562745171883
+    second: proyectil_18
+  - first:
+      213: -991432423908378353
+    second: proyectil_19
+  - first:
+      213: -9142841343961894105
+    second: proyectil_20
+  - first:
+      213: -2777290831572553325
+    second: proyectil_21
+  - first:
+      213: -327675495909118776
+    second: proyectil_22
+  - first:
+      213: -4310526422436753425
+    second: proyectil_23
+  - first:
+      213: -6198238771122563578
+    second: proyectil_24
+  - first:
+      213: -722447801507627145
+    second: proyectil_25
+  - first:
+      213: -6617430482639185818
+    second: proyectil_26
+  - first:
+      213: -3672727868680952195
+    second: proyectil_27
+  - first:
+      213: -8218195568179436432
+    second: proyectil_28
+  - first:
+      213: 3330335383214356575
+    second: proyectil_29
+  - first:
+      213: -4073215745746260331
+    second: proyectil_30
+  - first:
+      213: 3277079270951336461
+    second: proyectil_31
+  - first:
+      213: -548150574589932862
+    second: proyectil_32
+  - first:
+      213: 6588638930232509085
+    second: proyectil_33
+  - first:
+      213: -1301891917870152338
+    second: proyectil_34
+  - first:
+      213: 4899006935742772548
+    second: proyectil_35
+  - first:
+      213: -511226321442757345
+    second: proyectil_36
+  - first:
+      213: -4490097883988622614
+    second: proyectil_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: proyectil_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 687
+        width: 105
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf6b5b7a6a9cf820800000000000000
+      internalID: 2953405237775003591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 706
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f400cd7ac3ffbd6c0800000000000000
+      internalID: -4117416798320852913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 666
+        width: 129
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f075aedf641afdc80800000000000000
+      internalID: -8295734662313388273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_3
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 704
+        width: 103
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f4ab67ddb715b50800000000000000
+      internalID: 6580176721674915589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_4
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 705
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7340c6b12633b6e60800000000000000
+      internalID: 7956509663139988535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_5
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 742
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9456f5dd0ee09b360800000000000000
+      internalID: 7185791039395816777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_6
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 706
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6a51d6601f67bb0800000000000000
+      internalID: -4938494931462936865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_7
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 706
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23986c0e2353b09d0800000000000000
+      internalID: -2807091450099627726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_8
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 666
+        width: 113
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e180c38144938baa0800000000000000
+      internalID: -6145098726919895010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_9
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 723
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc378c92d7489b50800000000000000
+      internalID: 6600104223806274742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_10
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 701
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449051efa32005140800000000000000
+      internalID: 4706264062996318532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_11
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 695
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76e57272e0ef1b70800000000000000
+      internalID: 8872057054130726522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 654
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c5de2176500cc90800000000000000
+      internalID: -7151710268007031738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_13
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 655
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d7a49d10e75f2e0800000000000000
+      internalID: -2092627905438122725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 463
+        width: 239
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c501cad32fadad0800000000000000
+      internalID: -2676560681824658369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_15
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 465
+        width: 242
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b9cb9e3aabc7240800000000000000
+      internalID: 4790909316779252632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_16
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 462
+        width: 239
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a81deb93c801710800000000000000
+      internalID: 1661982442142141077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_17
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 465
+        width: 232
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d099d3f3cc556890800000000000000
+      internalID: -7465458810617229095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 299
+        width: 157
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf1b0db105a20760800000000000000
+      internalID: 7422676562745171883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 326
+        width: 104
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09f22a9679bd32f0800000000000000
+      internalID: -991432423908378353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_20
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 288
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723756f0d3a1e1180800000000000000
+      internalID: -9142841343961894105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_21
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 321
+        width: 92
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3913b2214b41579d0800000000000000
+      internalID: -2777290831572553325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_22
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 323
+        width: 75
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccacb06fdcd37bf0800000000000000
+      internalID: -327675495909118776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_23
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 321
+        width: 76
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefc8b39e0fed24c0800000000000000
+      internalID: -4310526422436753425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_24
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 288
+        width: 153
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6069f266dae6bf9a0800000000000000
+      internalID: -6198238771122563578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_25
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 287
+        width: 66
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f306e5d8959f5f0800000000000000
+      internalID: -722447801507627145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_26
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 285
+        width: 119
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6681374690a2a24a0800000000000000
+      internalID: -6617430482639185818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 78
+        width: 257
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76289e5679d70dc0800000000000000
+      internalID: -3672727868680952195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_28
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 83
+        width: 254
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074a9ff2caa13fd80800000000000000
+      internalID: -8218195568179436432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_29
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 162
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58f76bd26ab73e20800000000000000
+      internalID: 3330335383214356575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_30
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 87
+        width: 259
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e244d2cd70977c0800000000000000
+      internalID: -4073215745746260331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_31
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 154
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ab9d5fb368a7d20800000000000000
+      internalID: 3277079270951336461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_32
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 68
+        width: 251
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca0426e4f39468f0800000000000000
+      internalID: -548150574589932862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_33
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 125
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9281dde23c8f6b50800000000000000
+      internalID: 6588638930232509085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_34
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 33
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65c56bc230ceede0800000000000000
+      internalID: -1301891917870152338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_35
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 19
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4457f1d1ad4ccf340800000000000000
+      internalID: 4899006935742772548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_36
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 27
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1523968e52c7e8f0800000000000000
+      internalID: -511226321442757345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectil_37
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 0
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2002a93c7ffa1c0800000000000000
+      internalID: -4490097883988622614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f7a2288b36873aa45922aa13e8c45a50
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      proyectil_0: 2953405237775003591
+      proyectil_1: -4117416798320852913
+      proyectil_10: 4706264062996318532
+      proyectil_11: 8872057054130726522
+      proyectil_12: -7151710268007031738
+      proyectil_13: -2092627905438122725
+      proyectil_14: -2676560681824658369
+      proyectil_15: 4790909316779252632
+      proyectil_16: 1661982442142141077
+      proyectil_17: -7465458810617229095
+      proyectil_18: 7422676562745171883
+      proyectil_19: -991432423908378353
+      proyectil_2: -8295734662313388273
+      proyectil_20: -9142841343961894105
+      proyectil_21: -2777290831572553325
+      proyectil_22: -327675495909118776
+      proyectil_23: -4310526422436753425
+      proyectil_24: -6198238771122563578
+      proyectil_25: -722447801507627145
+      proyectil_26: -6617430482639185818
+      proyectil_27: -3672727868680952195
+      proyectil_28: -8218195568179436432
+      proyectil_29: 3330335383214356575
+      proyectil_3: 6580176721674915589
+      proyectil_30: -4073215745746260331
+      proyectil_31: 3277079270951336461
+      proyectil_32: -548150574589932862
+      proyectil_33: 6588638930232509085
+      proyectil_34: -1301891917870152338
+      proyectil_35: 4899006935742772548
+      proyectil_36: -511226321442757345
+      proyectil_37: -4490097883988622614
+      proyectil_4: 7956509663139988535
+      proyectil_5: 7185791039395816777
+      proyectil_6: -4938494931462936865
+      proyectil_7: -2807091450099627726
+      proyectil_8: -6145098726919895010
+      proyectil_9: 6600104223806274742
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
