@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
 
 public class HealthPlayer : MonoBehaviour
 {
@@ -53,7 +54,7 @@ public class HealthPlayer : MonoBehaviour
             TakeDamage(10f);
         }
     }
-
+    
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;

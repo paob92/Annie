@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class InitialMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] private GameObject UI;
+    
     public void Play()
     {
-        SceneManager.LoadScene("Game");  
+        UI.SetActive(false); 
     }
 
     public void QuitGame()

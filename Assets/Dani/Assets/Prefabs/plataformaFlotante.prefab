@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1241886316867707693}
   - component: {fileID: 6736059376317771763}
   - component: {fileID: 3898342939295410138}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plataformaFlotante
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 18
   m_Sprite: {fileID: -8111662978414173366, guid: 5d7d4fce304afe448bb97ed73b65fbd8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

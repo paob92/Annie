@@ -150,7 +150,7 @@ MonoBehaviour:
   range: 1.2
   layerGround:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 64
 --- !u!114 &8241776351519210447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,6 +184,7 @@ MonoBehaviour:
   healthText: {fileID: 0}
   gameOverPanel: {fileID: 0}
   isDead: 0
+  checkpoints: []
 --- !u!61 &4439652807819366091
 BoxCollider2D:
   m_ObjectHideFlags: 0

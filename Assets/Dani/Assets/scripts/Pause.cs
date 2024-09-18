@@ -24,7 +24,7 @@ public class PauseManager : MonoBehaviour
         }
     }
 
-    void Pause()
+    public void Pause()
     {
         Time.timeScale = 0f; 
         isPaused = true;

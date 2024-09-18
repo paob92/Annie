@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7186336142212124011}
   - component: {fileID: 8555793309081717039}
   - component: {fileID: 117220488851824707}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Prefab Plataforma flotante
   m_TagString: Ground
   m_Icon: {fileID: 0}
