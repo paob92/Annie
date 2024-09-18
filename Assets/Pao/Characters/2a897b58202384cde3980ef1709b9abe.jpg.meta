@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e5030b34fb7d5794591273ba6f74b7bb
+guid: 9a2979916c6602a4c9e7cb41223637fc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5127207834166706168
-    second: Jizoo_Mesa de trabajo 1_0
+      213: -5502106422559285447
+    second: 2a897b58202384cde3980ef1709b9abe_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jizoo_Mesa de trabajo 1_0
+      name: 2a897b58202384cde3980ef1709b9abe_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 6992
-        height: 5747
+        width: 564
+        height: 209
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,8 +127,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ff3b1d2c50872740800000000000000
-      internalID: 5127207834166706168
+      spriteID: 93f55fe2c5794a3b0800000000000000
+      internalID: -5502106422559285447
       vertices: []
       indices: 
       edges: []
@@ -143,8 +143,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Jizoo_Mesa de trabajo 1_0: 5127207834166706168
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
