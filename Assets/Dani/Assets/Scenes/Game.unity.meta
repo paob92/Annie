@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Dani/Assets/Scenes/Game.unity.meta
 guid: 5a1c20ffc467c0447a723cb08c7e4cb0
+========
+guid: 9f65c4e724582e649b95ea4a216f8178
+folderAsset: yes
+>>>>>>>> origin/Pao:Assets/Scenes.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
