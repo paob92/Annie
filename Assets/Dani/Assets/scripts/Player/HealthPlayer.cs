@@ -5,12 +5,13 @@ using Unity.VisualScripting;
 
 public class HealthPlayer : MonoBehaviour
 {
-    [SerializeField] private float maxHealth = 100f;
-    [SerializeField] private float currentHealth;
+    [SerializeField] public float maxHealth = 100f;
+    [SerializeField] public float currentHealth;
     [SerializeField] private Slider healthSlider;
     [SerializeField] private TextMeshProUGUI healthText;
     [SerializeField] private GameObject gameOverPanel;
     public bool isDead = false;
+    public bool deadByEnemyFollow = false;
 
     
     public Transform[] checkpoints; 
@@ -43,7 +44,12 @@ public class HealthPlayer : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Enemy"))
         {
-            TakeDamage(10f);
+            TakeDamage(30f);
+            if (currentHealth <= 0)
+            {
+                GameOver();
+            }
+           
         }
         else if (collision.gameObject.CompareTag("Dead"))
         {
@@ -85,7 +91,7 @@ public class HealthPlayer : MonoBehaviour
     public void OnPlayerDeath()
     {
         deathCount++;
-        if (deathCount <= maxRespawns)
+        if (deathCount <= maxRespawns )
         {
             RespawnPlayer(); 
         }

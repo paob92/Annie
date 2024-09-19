@@ -11,7 +11,7 @@ public class FollowIA : MonoBehaviour
     [SerializeField] private HealthPlayer healthPlayer;
     [SerializeField] private float attackCooldown = 2f;
     [SerializeField] private Dialogue Dialogue;
-    private float nextAttackTime = 0f;  
+    private float nextAttackTime = 0f;
 
     private void Update()
     {
@@ -28,17 +28,26 @@ public class FollowIA : MonoBehaviour
 
             transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
         }
-        else if (Vector2.Distance(transform.position, player.position) <= distance && Time.time >= nextAttackTime)
-        {
-                Attack();
-                nextAttackTime = Time.time + attackCooldown;
-            
-        }
-    }
+        /* else if (Vector2.Distance(transform.position, player.position) <= distance && Time.time >= nextAttackTime)
+         {
 
-    private void Attack()
-    {
-        healthPlayer.TakeDamage(30f);
-        Debug.Log("Ataque realizado");
+                 nextAttackTime = Time.time + attackCooldown;
+             if (healthPlayer.currentHealth <= 0)
+             {
+                 healthPlayer.deadByEnemyFollow = true;
+             }
+             else
+             {
+                 Attack();
+             }
+         }
+     }
+
+     private void Attack()
+     {
+         healthPlayer.TakeDamage(30f);
+
+         Debug.Log("Ataque realizado");
+     }*/
     }
 }

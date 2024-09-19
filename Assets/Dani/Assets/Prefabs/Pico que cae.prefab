@@ -133,6 +133,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8584641449685366456}
     m_Modifications:
+    - target: {fileID: 135759132838102735, guid: dfccbbb951836af4ab0608b8a1a64ce4, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2184669772736872035, guid: dfccbbb951836af4ab0608b8a1a64ce4, type: 3}
       propertyPath: m_Name
       value: Picos que caen sprite
@@ -140,6 +144,10 @@ PrefabInstance:
     - target: {fileID: 2184669772736872035, guid: dfccbbb951836af4ab0608b8a1a64ce4, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184669772736872035, guid: dfccbbb951836af4ab0608b8a1a64ce4, type: 3}
+      propertyPath: m_TagString
+      value: Trap
       objectReference: {fileID: 0}
     - target: {fileID: 8069601842745386751, guid: dfccbbb951836af4ab0608b8a1a64ce4, type: 3}
       propertyPath: m_LocalPosition.x
