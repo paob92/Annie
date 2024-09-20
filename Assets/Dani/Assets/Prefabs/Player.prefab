@@ -82,7 +82,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 0.13042364, g: 0.11654504, b: 0.9150943, a: 1}
   m_FlipX: 0
@@ -184,6 +184,7 @@ MonoBehaviour:
   healthText: {fileID: 0}
   gameOverPanel: {fileID: 0}
   isDead: 0
+  deadByEnemyFollow: 0
   checkpoints: []
 --- !u!61 &4439652807819366091
 BoxCollider2D:
