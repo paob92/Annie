@@ -1441,7 +1441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 80143988}
   m_Layer: 0
-  m_Name: Enemigos
+  m_Name: Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2774,7 +2774,7 @@ GameObject:
   - component: {fileID: 203041432}
   - component: {fileID: 203041431}
   m_Layer: 0
-  m_Name: "da\xF1o Agua"
+  m_Name: Dead water
   m_TagString: Dead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6079,7 +6079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 320688060}
   m_Layer: 6
-  m_Name: Plataformas flotantes
+  m_Name: Static Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6817,6 +6817,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6946379327627720287, guid: e7cda9f5e6ff8a240ae681c361083df0, type: 3}
   m_PrefabInstance: {fileID: 378164456}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &378527542
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3054923969809251525, guid: e29cd5c16a191e249ac8d4ef508b18d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 98.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054923969809251525, guid: e29cd5c16a191e249ac8d4ef508b18d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -18.246563
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054923969809251525, guid: e29cd5c16a191e249ac8d4ef508b18d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054923969809251525, guid: e29cd5c16a191e249ac8d4ef508b18d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054923969809251525, guid: e29cd5c16a191e249ac8d4ef508b18d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054923969809251525, guid: e29cd5c16a191e249ac8d4ef508b18d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054923969809251525, guid: e29cd5c16a191e249ac8d4ef508b18d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054923969809251525, guid: e29cd5c16a191e249ac8d4ef508b18d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054923969809251525, guid: e29cd5c16a191e249ac8d4ef508b18d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054923969809251525, guid: e29cd5c16a191e249ac8d4ef508b18d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197776707945971186, guid: e29cd5c16a191e249ac8d4ef508b18d5, type: 3}
+      propertyPath: selection
+      value: Level2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8899398662063547773, guid: e29cd5c16a191e249ac8d4ef508b18d5, type: 3}
+      propertyPath: m_Name
+      value: Gate
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e29cd5c16a191e249ac8d4ef508b18d5, type: 3}
 --- !u!1001 &384859484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11720,7 +11781,7 @@ GameObject:
   m_Component:
   - component: {fileID: 829515130}
   m_Layer: 0
-  m_Name: "Trampas y da\xF1o"
+  m_Name: Traps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12891,7 +12952,7 @@ GameObject:
   - component: {fileID: 887376220}
   - component: {fileID: 887376219}
   m_Layer: 0
-  m_Name: Fondo de cueva 1
+  m_Name: Backgrounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14212,7 +14273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 983075580}
   m_Layer: 6
-  m_Name: 'Plataformas moviles '
+  m_Name: Mobile Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14523,7 +14584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1001878161}
   m_Layer: 0
-  m_Name: picosImagen
+  m_Name: Spykes Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15843,11 +15904,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2748501921717714339, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3018328658892853995, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5637827041375425552, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -20814,7 +20875,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2936289033951791132, guid: e71ada6bbcc095040be12c43120188ac, type: 3}
       propertyPath: m_Name
-      value: curacion
+      value: Heal
       objectReference: {fileID: 0}
     - target: {fileID: 6767420117518872679, guid: e71ada6bbcc095040be12c43120188ac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21022,7 +21083,7 @@ GameObject:
   - component: {fileID: 1464414485}
   - component: {fileID: 1464414487}
   m_Layer: 6
-  m_Name: Bases
+  m_Name: Ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31761,7 +31822,7 @@ GameObject:
   - component: {fileID: 1643605123}
   - component: {fileID: 1643605122}
   m_Layer: 0
-  m_Name: Bordes
+  m_Name: Cave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -103379,6 +103440,10 @@ PrefabInstance:
       propertyPath: 'checkpoints.Array.data[2]'
       value: 
       objectReference: {fileID: 81089282}
+    - target: {fileID: 4752161778633459303, guid: 1fe7d996d6c3b3c46a403fa26a12344f, type: 3}
+      propertyPath: attackEffect
+      value: 
+      objectReference: {fileID: 1907976095}
     - target: {fileID: 6723497200970130672, guid: 1fe7d996d6c3b3c46a403fa26a12344f, type: 3}
       propertyPath: m_Constraints
       value: 4
@@ -103437,9 +103502,79 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8482825429944485320, guid: 1fe7d996d6c3b3c46a403fa26a12344f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1907976096}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fe7d996d6c3b3c46a403fa26a12344f, type: 3}
+--- !u!1001 &1907976094
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1535407233}
+    m_Modifications:
+    - target: {fileID: 2760974421786036855, guid: 7ec6336b053a2054ba63ff533adc302c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760974421786036855, guid: 7ec6336b053a2054ba63ff533adc302c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760974421786036855, guid: 7ec6336b053a2054ba63ff533adc302c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760974421786036855, guid: 7ec6336b053a2054ba63ff533adc302c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760974421786036855, guid: 7ec6336b053a2054ba63ff533adc302c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760974421786036855, guid: 7ec6336b053a2054ba63ff533adc302c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760974421786036855, guid: 7ec6336b053a2054ba63ff533adc302c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760974421786036855, guid: 7ec6336b053a2054ba63ff533adc302c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760974421786036855, guid: 7ec6336b053a2054ba63ff533adc302c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760974421786036855, guid: 7ec6336b053a2054ba63ff533adc302c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310992954989501067, guid: 7ec6336b053a2054ba63ff533adc302c, type: 3}
+      propertyPath: m_Name
+      value: AttackAura
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ec6336b053a2054ba63ff533adc302c, type: 3}
+--- !u!1 &1907976095 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6310992954989501067, guid: 7ec6336b053a2054ba63ff533adc302c, type: 3}
+  m_PrefabInstance: {fileID: 1907976094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1907976096 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2760974421786036855, guid: 7ec6336b053a2054ba63ff533adc302c, type: 3}
+  m_PrefabInstance: {fileID: 1907976094}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1908392901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -106898,7 +107033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2134013929}
   m_Layer: 0
-  m_Name: Picos de techo
+  m_Name: Falling Spykes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107569,3 +107704,4 @@ SceneRoots:
   - {fileID: 983075580}
   - {fileID: 1083590620}
   - {fileID: 887376220}
+  - {fileID: 378527542}

@@ -13,11 +13,11 @@ public class HealthPlayer : MonoBehaviour
     public bool isDead = false;
     public bool deadByEnemyFollow = false;
 
-    
-    public Transform[] checkpoints; 
-    private int currentCheckpoint = 0; 
-    private int deathCount = 0; 
-    private int maxRespawns = 4; 
+
+    public Transform[] checkpoints;
+    private int currentCheckpoint = 0;
+    private int deathCount = 0;
+    private int maxRespawns = 4;
 
     void Start()
     {
@@ -45,22 +45,26 @@ public class HealthPlayer : MonoBehaviour
         else if (collision.gameObject.CompareTag("Enemy"))
         {
             TakeDamage(30f);
-            if (currentHealth <= 0)
-            {
-                GameOver();
-            }
-           
+
+
         }
         else if (collision.gameObject.CompareTag("Dead"))
         {
+
             TakeDamage(100f);
         }
         else if (collision.gameObject.CompareTag("Ente"))
         {
             TakeDamage(10f);
         }
+        else if (collision.gameObject.CompareTag("Boss"))
+        {
+            currentHealth = 0;
+            UpdateHealth();
+            GameOver();
+        }
     }
-    
+
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
@@ -91,13 +95,13 @@ public class HealthPlayer : MonoBehaviour
     public void OnPlayerDeath()
     {
         deathCount++;
-        if (deathCount <= maxRespawns )
+        if (deathCount <= maxRespawns)
         {
-            RespawnPlayer(); 
+            RespawnPlayer();
         }
         else
         {
-            GameOver(); 
+            GameOver();
         }
     }
 
@@ -106,7 +110,7 @@ public class HealthPlayer : MonoBehaviour
         currentHealth = maxHealth;
         healthSlider.value = currentHealth;
         UpdateHealth();
-        transform.position = checkpoints[currentCheckpoint].position; 
+        transform.position = checkpoints[currentCheckpoint].position;
     }
 
     public void GameOver()
@@ -121,7 +125,7 @@ public class HealthPlayer : MonoBehaviour
         if (checkpointIndex > currentCheckpoint)
         {
             currentCheckpoint = checkpointIndex;
-            
+
         }
     }
 
@@ -130,7 +134,7 @@ public class HealthPlayer : MonoBehaviour
         healthText.text = currentHealth + "/" + maxHealth + " HP";
     }
 
-   
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Checkpoint"))
