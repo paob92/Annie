@@ -41,7 +41,7 @@ public class PauseManager : MonoBehaviour
     public void LoadMainMenu()
     {
         Debug.Log(" pulsa o ");
-        SceneManager.LoadScene("Menu"); 
+        SceneManager.LoadScene("Tutorial"); 
 
         Time.timeScale = 1f; 
        

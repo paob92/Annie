@@ -15327,6 +15327,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 322121243868912128, guid: 831606cfe07be184da895ec94a797281, type: 3}
+      propertyPath: m_SortingOrder
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 859525114705199932, guid: 831606cfe07be184da895ec94a797281, type: 3}
       propertyPath: m_Name
       value: Enemigo atacable

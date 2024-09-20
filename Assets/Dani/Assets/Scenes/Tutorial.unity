@@ -15187,55 +15187,59 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2748501921717714339, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3018328658892853995, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964491627395569703, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5964491627395569703, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5964491627395569703, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5964491627395569703, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 277.235
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5964491627395569703, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -95.43034
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6299944938369638629, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6299944938369638629, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6299944938369638629, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 277.235
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6299944938369638629, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -316.6212
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6378572090525362219, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6378572090525362219, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6378572090525362219, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 277.235
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6378572090525362219, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -212.24753
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8403502928983474685, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15277,6 +15281,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8494120268703403122, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
+      propertyPath: UI
+      value: 
+      objectReference: {fileID: 1000894827}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15285,6 +15293,11 @@ PrefabInstance:
 --- !u!1 &1000894826 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6738864672789785271, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
+  m_PrefabInstance: {fileID: 1000894825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1000894827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3018328658892853995, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
   m_PrefabInstance: {fileID: 1000894825}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1033744865
