@@ -8,8 +8,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioSource audioSourceWalk; // Componente AudioSource
     private Rigidbody2D rigidPlayer;
 
+    [Header("Animacion")]
+    private Animator animator;
     void Awake()
+
     {
+        animator = GetComponent<Animator>();
         rigidPlayer = GetComponent<Rigidbody2D>();
         audioSourceWalk = GetComponent<AudioSource>(); // Obtiene el componente AudioSource
     }
@@ -21,7 +25,9 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
+        
         float inputMovement = Input.GetAxis("Horizontal");
+        animator.SetFloat("Horizontal", Mathf.Abs( speed) );
         rigidPlayer.velocity = new Vector2(inputMovement * speed, rigidPlayer.velocity.y);
         Flip(inputMovement);
 
