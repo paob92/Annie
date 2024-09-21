@@ -2415,9 +2415,9 @@ RectTransform:
   - {fileID: 230681198}
   m_Father: {fileID: 780116232}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 221.37152, y: -132.3}
   m_SizeDelta: {x: 487, y: 99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &137690305
@@ -5491,7 +5491,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4911667390127658951}
+      - m_Target: {fileID: 1104800924}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -6963,7 +6963,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 201964138687119268}
+      - m_Target: {fileID: 1104800924}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -9649,9 +9649,9 @@ RectTransform:
   - {fileID: 299620658}
   m_Father: {fileID: 780116232}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 221.37152, y: -215.1}
   m_SizeDelta: {x: 487, y: 99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &460493831
@@ -17674,17 +17674,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1241886316867707693, guid: 42ae1f447f0743d4c8ea56dc1ad515bd, type: 3}
   m_PrefabInstance: {fileID: 636066747960036480}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1042085189 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8494120268703403122, guid: 7e1dc95af4310a44f82be736b19b5d79, type: 3}
-  m_PrefabInstance: {fileID: 1083590620}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30b81e1ec5420fb4abbca45c92194d2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1046050875 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3676847543337489124, guid: fb9f38dab79a89041b1ed610e037a56b, type: 3}
@@ -19054,7 +19043,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1104800925
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23915,10 +23904,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1042085189}
-        m_TargetAssemblyTypeName: InitialMenu, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 1
+      - m_Target: {fileID: 1440227506}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -23926,6 +23915,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1104800924}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1420694876
 MonoBehaviour:
@@ -35081,9 +35082,9 @@ RectTransform:
   - {fileID: 1420694874}
   m_Father: {fileID: 780116232}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 221.37152, y: -49.5}
   m_SizeDelta: {x: 487, y: 99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1629683269
@@ -111695,7 +111696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ed08ccf32489b64ead56ebaab918882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenuUI: {fileID: 201964138687119268}
+  pauseMenuUI: {fileID: 1104800924}
   isPaused: 0
 --- !u!4 &3959961784005548252
 Transform:
@@ -111722,7 +111723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5239991119512842171}
   m_Layer: 0
-  m_Name: Pause
+  m_Name: PauseNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
