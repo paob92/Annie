@@ -9,9 +9,14 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float damage;
     [SerializeField] private float attackCooldown;
     [SerializeField] private float timeAttack;
+    [SerializeField] private GameObject attackEffect;
+
+    
 
     private void Update()
     {
+        attackEffect.SetActive(false);
+
         if (timeAttack > 0)
         {
             timeAttack -= Time.deltaTime;
@@ -21,10 +26,12 @@ public class PlayerAttack : MonoBehaviour
             Attack();
             timeAttack= attackCooldown;
         }
+        
     }
 
     private void Attack()
     {
+        attackEffect.SetActive(true);
         Collider2D[] objetos = Physics2D.OverlapCircleAll(attackController.position, attackRange);
         foreach (Collider2D colisionador in objetos)
         {
@@ -33,6 +40,7 @@ public class PlayerAttack : MonoBehaviour
                 colisionador.transform.GetComponent<Enemy>().TakeDamage(damage);
             }
         }
+        
     }
 
     private void OnDrawGizmos()

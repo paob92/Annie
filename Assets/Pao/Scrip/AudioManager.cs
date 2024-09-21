@@ -8,7 +8,9 @@ public class AudioManager : MonoBehaviour
     public static AudioManager instance;
     public AudioMixer mixer;
     public float sfxVolume = 0;
-    public float musicVolume = 0; 
+    public float musicVolume = 0;
+
+    public GameObject ambientSoundUI;
 
 
     void Awake()
@@ -16,14 +18,14 @@ public class AudioManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
         }
         else
         {
             Destroy(gameObject);
         }
 
-        
+
     }
     private void Start()
     {
@@ -59,12 +61,18 @@ public class AudioManager : MonoBehaviour
     public float GetMusicVolume()
     {
         return musicVolume;
-    } 
-    
+    }
+
     public float GetSFXVolume()
     {
         return sfxVolume;
     }
 
-
+    public void SwitchStateAmbienSoundUI(bool newState)
+    {
+        if (ambientSoundUI != null)
+        {
+            ambientSoundUI.SetActive(newState);
+        }
+    }
 }

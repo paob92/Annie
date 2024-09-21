@@ -5,18 +5,19 @@ using Unity.VisualScripting;
 
 public class HealthPlayer : MonoBehaviour
 {
-    [SerializeField] private float maxHealth = 100f;
-    [SerializeField] private float currentHealth;
+    [SerializeField] public float maxHealth = 100f;
+    [SerializeField] public float currentHealth;
     [SerializeField] private Slider healthSlider;
     [SerializeField] private TextMeshProUGUI healthText;
     [SerializeField] private GameObject gameOverPanel;
     public bool isDead = false;
+    public bool deadByEnemyFollow = false;
 
-    
-    public Transform[] checkpoints; 
-    private int currentCheckpoint = 0; 
-    private int deathCount = 0; 
-    private int maxRespawns = 4; 
+
+    public Transform[] checkpoints;
+    private int currentCheckpoint = 0;
+    private int deathCount = 0;
+    private int maxRespawns = 4;
 
     void Start()
     {
@@ -43,18 +44,27 @@ public class HealthPlayer : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Enemy"))
         {
-            TakeDamage(10f);
+            TakeDamage(30f);
+
+
         }
         else if (collision.gameObject.CompareTag("Dead"))
         {
+
             TakeDamage(100f);
         }
         else if (collision.gameObject.CompareTag("Ente"))
         {
             TakeDamage(10f);
         }
+        else if (collision.gameObject.CompareTag("Boss"))
+        {
+            currentHealth = 0;
+            UpdateHealth();
+            GameOver();
+        }
     }
-    
+
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
@@ -87,11 +97,11 @@ public class HealthPlayer : MonoBehaviour
         deathCount++;
         if (deathCount <= maxRespawns)
         {
-            RespawnPlayer(); 
+            RespawnPlayer();
         }
         else
         {
-            GameOver(); 
+            GameOver();
         }
     }
 
@@ -100,7 +110,7 @@ public class HealthPlayer : MonoBehaviour
         currentHealth = maxHealth;
         healthSlider.value = currentHealth;
         UpdateHealth();
-        transform.position = checkpoints[currentCheckpoint].position; 
+        transform.position = checkpoints[currentCheckpoint].position;
     }
 
     public void GameOver()
@@ -115,7 +125,7 @@ public class HealthPlayer : MonoBehaviour
         if (checkpointIndex > currentCheckpoint)
         {
             currentCheckpoint = checkpointIndex;
-            
+
         }
     }
 
@@ -124,7 +134,7 @@ public class HealthPlayer : MonoBehaviour
         healthText.text = currentHealth + "/" + maxHealth + " HP";
     }
 
-   
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Checkpoint"))
