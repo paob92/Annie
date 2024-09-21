@@ -5,18 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Pao/Scenes/Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
     path: Assets/Dani/Game.unity
     guid: 97237d7a9f770f540a0ac98b4bbac65b
   - enabled: 1
-    path: Assets/Dani/Assets/Scenes/Game.unity
-    guid: 5a1c20ffc467c0447a723cb08c7e4cb0
-  - enabled: 1
     path: Assets/Dani/Assets/Scenes/Tutorial.unity
     guid: 2da0def01ca807a4e88e3e62b2eacc5e
+  - enabled: 1
+    path: Assets/Dani/Assets/Scenes/Game.unity
+    guid: 5a1c20ffc467c0447a723cb08c7e4cb0
   - enabled: 1
     path: Assets/Dani/Assets/Scenes/Level2.unity
     guid: b3a94bba73b292546a368de0fe9a1c8b
