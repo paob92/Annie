@@ -10,6 +10,8 @@ public class HealthPlayer : MonoBehaviour
     [SerializeField] private Slider healthSlider;
     [SerializeField] private TextMeshProUGUI healthText;
     [SerializeField] private GameObject gameOverPanel;
+    [SerializeField] private GameObject liveCanvas;
+
     public bool isDead = false;
     public bool deadByEnemyFollow = false;
 
@@ -117,6 +119,7 @@ public class HealthPlayer : MonoBehaviour
     {
         isDead = true;
         gameOverPanel.SetActive(true);
+        liveCanvas.SetActive(false);
         Time.timeScale = 0f;
     }
 
