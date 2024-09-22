@@ -9,11 +9,22 @@ public class InitialMenu : MonoBehaviour
     
     public void Play()
     {
-        UI.SetActive(false); 
+       UI.SetActive(false); 
     }
+
+    public void LoadMainMenu()
+    {
+        Debug.Log(" pulsa o ");
+        SceneManager.LoadScene("Tutorial");
+
+        Time.timeScale = 1f;
+
+    }
+
 
     public void QuitGame()
     {
+        Debug.Log("Cerrando Juego");
         Application.Quit();
     } 
    
