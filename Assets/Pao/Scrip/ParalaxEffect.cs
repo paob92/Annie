@@ -1,27 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor.Analytics;
 using UnityEngine;
 
 public class ParalaxEffect : MonoBehaviour
 {
-    [SerializeField] private float parallaxMultiplayer;
+    [SerializeField] private Vector2 speedMovement;
 
-    private Transform cameraTransform;
-    private Vector3 previousCameraPosition;//posición de la camara 
-    void Start()
+    private Vector2 offset;
+    private Material materialBackground;
+    private Rigidbody2D playerRB;
+
+    private void Awake()
     {
-        cameraTransform = Camera.main.transform;
-        previousCameraPosition = cameraTransform.position;//le asigno posición de la camara 
+        materialBackground = GetComponent<SpriteRenderer>().material;
+        playerRB = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
+
     }
 
-    // Update is called once per frame
-    void LateUpdate()
+    private void Update()
     {
-        float deltaX = (cameraTransform.position.x - previousCameraPosition.x)*parallaxMultiplayer ;//para calcular diferencia de movimiento de la camara
-        float deltaY  = (cameraTransform.position.y - previousCameraPosition.y)* parallaxMultiplayer;//para calcular diferencia de movimiento de la camara
-        transform.Translate(new Vector3(deltaX,deltaY , 0));
-        previousCameraPosition = cameraTransform.position;
-
+        offset = (playerRB.velocity.x *0.1f) * speedMovement *  Time.deltaTime;  
+        materialBackground.mainTextureOffset += offset;
     }
 }
