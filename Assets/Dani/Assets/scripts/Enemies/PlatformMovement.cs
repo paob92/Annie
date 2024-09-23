@@ -33,6 +33,7 @@ public class PlatformMovement : MonoBehaviour
     {
         if (transform.position.x < movementPoints[randomNumber].position.x) {
             spriteRenderer.flipX = true;
+            
         }
         else
         {

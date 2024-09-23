@@ -29,7 +29,14 @@ public class ReMovement : MonoBehaviour
     [Header("Animation")]
     [SerializeField] private Animator animator;
 
+   /* [Header(" Audio")]
+   [SerializeField] private AudioSource audioSource;
+    public AudioClip walkSound;*/
 
+    /*private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }*/
 
     private void Start()
     {
@@ -39,8 +46,18 @@ public class ReMovement : MonoBehaviour
     private void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * Speed;
+        
 
         animator.SetFloat("Horizontal" , Mathf.Abs(horizontalMove));
+       /* if (horizontalMove != 0 && !audioSource.isPlaying && isGround)
+        {
+            audioSource.clip = walkSound;
+            audioSource.Play(); 
+        }
+        else if (horizontalMove == 0 && audioSource.isPlaying || !isGround)
+        {
+            audioSource.Stop(); 
+        }*/
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
