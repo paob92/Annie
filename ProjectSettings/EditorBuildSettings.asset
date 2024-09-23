@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Dani/Game.unity
     guid: 97237d7a9f770f540a0ac98b4bbac65b
   - enabled: 1
-    path: Assets/Pao/Scenes/Menu.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Dani/Assets/Scenes/Tutorial.unity
     guid: 2da0def01ca807a4e88e3e62b2eacc5e
   - enabled: 1
@@ -20,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Dani/Assets/Scenes/Level2.unity
     guid: b3a94bba73b292546a368de0fe9a1c8b
+  - enabled: 1
+    path: Assets/Pao/Scenes/Menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
